@@ -30,7 +30,7 @@ apple_static_framework_import(
     http_archive(
         name = "com_github_keith_swift_syntax",
         build_file = "@com_github_keith_swift_syntax_bazel//:SwiftSyntax.BUILD",
-        sha256 = "1326d193f78251e85153550e0383f2c85bd7a5a7b1bc1b789be4399596c8e3f5",
-        strip_prefix = "swift-syntax-0.50600.0",
-        url = "https://github.com/apple/swift-syntax/archive/refs/tags/0.50600.0.tar.gz",
+        sha256 = "f4601f9c5bc984fb4a81f8d4ff9c0fa60f4f61ac10397a38bb932ead01dcd134",
+        strip_prefix = "swift-syntax-0.50600.1",
+        url = "https://github.com/apple/swift-syntax/archive/refs/tags/0.50600.1.tar.gz",
     )
